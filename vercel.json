@@ -16,6 +16,21 @@
       }
     ],
     "env": {
-      "NODE_VERSION": "20"
+      "APP_KEY": "base64:zfTCi8Hytbsw1Cz9Gm5hLUA6WeihiQcv+z1PNNfSW3E=",
+      "APP_ENV": "production",
+      "APP_DEBUG": "false",
+      "DB_CONNECTION": "mysql",
+      "DB_HOST": "gateway01.ap-southeast-1.prod.aws.tidbcloud.com",
+      "DB_PORT": "4000",
+      "DB_DATABASE": "test",
+      "DB_USERNAME": "3mjQcPTRHZeGGq7.root",
+      "DB_PASSWORD": "y2Rb0IGhCnqNN3yN",
+      "APP_SERVICES_CACHE": "/tmp/services.php",
+      "APP_PACKAGES_CACHE": "/tmp/packages.php",
+      "APP_CONFIG_CACHE": "/tmp/config.php",
+      "APP_ROUTES_CACHE": "/tmp/routes.php",
+      "VIEW_COMPILED_PATH": "/tmp/views",
+      "CACHE_STORE": "array",
+      "SESSION_DRIVER": "database"
     }
   }
